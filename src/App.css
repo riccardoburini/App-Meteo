@@ -1,0 +1,60 @@
+#card {
+  margin: auto;
+  border: 2px rgb(255, 255, 255) solid;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+}
+#card:hover {
+  scale: 1.01;
+  border: #0d6efd 2px solid;
+}
+a {
+  text-decoration: none;
+}
+#temp {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+#nav {
+  color: white;
+}
+#nav::placeholder {
+  color: #0d6efd;
+}
+#app {
+  background-image: url("https://wallpaperaccess.com/full/164546.jpg");
+
+  background-size: cover !important;
+  height: 100vh !important;
+}
+#description {
+  font-size: 1.2em;
+}
+
+table {
+  background: linear-gradient(#3888ff, #3a89ff, #77adff, #98bdf0);
+  border: solid 1px;
+  border-radius: 20px;
+  padding: 20px;
+  border: none;
+  color: white !important;
+  margin-top: 10px;
+}
+#notfound {
+  border-radius: 10px;
+  color: #0d6efd;
+  background-color: white;
+  border: none;
+  width: 150px;
+  height: 40px;
+  font-size: 1.2em;
+}
+.last {
+  border: transparent;
+}
+
+.last1 {
+  border: transparent;
+  color: white;
+}
